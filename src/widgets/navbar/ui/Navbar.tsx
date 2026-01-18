@@ -1,6 +1,5 @@
 'use client';
 import { motion } from 'framer-motion';
-import {Link} from "lucide-react";
 
 export const Navbar = () => {
     return (
@@ -11,9 +10,9 @@ export const Navbar = () => {
         >
             <span className="text-white font-medium tracking-tighter">OK.</span>
             <div className="flex gap-8 text-sm uppercase tracking-widest text-white/70">
-                <Link href="#projects" className="hover:text-white transition-colors">Projects</Link>
-                <Link href="#stack" className="hover:text-white transition-colors">Stack</Link>
-                <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
+                <a href="#projects" className="hover:text-white transition-colors">Projects</a>
+                <a href="#stack" className="hover:text-white transition-colors">Stack</a>
+                <a href="#contact" className="hover:text-white transition-colors">Contact</a>
             </div>
         </motion.nav>
     );
