@@ -1,5 +1,3 @@
-import { cn } from '@/shared/lib/utils';
-
 const groups = [
     {
         title: "Frontend",
