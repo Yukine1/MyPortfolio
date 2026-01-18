@@ -8,13 +8,13 @@ export const Hero = () => {
 
             <div className="z-10">
                 <FadeInSection>
-          <span className="text-xs uppercase tracking-[0.3em] text-gray-500 mb-6 block">
-            Full Stack Developer • 3+ Years Experience
-          </span>
+                    <span className="text-xs uppercase tracking-[0.3em] text-gray-500 mb-6 block">
+                        Full Stack Developer • 3+ Years Experience
+                    </span>
                 </FadeInSection>
 
                 <h1 className="text-6xl md:text-[10vw] font-medium tracking-tighter leading-[0.85] mb-10">
-                    <TextReveal text="Oleksandr Kolva" />
+                    <TextReveal text="Alex Kolva" />
                 </h1>
 
                 <FadeInSection delay={0.4}>
