@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://yukine-portfolio.vercel.app/sitemap.xml',
+        sitemap: 'https://my-portfolio.vercel.app/sitemap.xml',
     }
 }
