@@ -7,17 +7,17 @@ import type { Metadata } from "next";
 import {SmoothScrollProvider} from "@shared/lib/providers/SmoothControllerProvider";
 
 export const metadata: Metadata = {
-    title: "Oleksandr Kolva | Full Stack Developer | AI & React Expert",
+    title: "Alex Kolva | Full Stack Developer | AI & React Expert",
 
     description: "Full Stack Developer with 3+ years of experience specializing in React, TypeScript, and AI integrations. Based in Zaandam, Netherlands.",
 
     keywords: ["Full Stack Developer", "React Developer Netherlands", "AI Voice Assistant Developer", "TypeScript Expert", "Next.js Portfolio"],
-    authors: [{ name: "Oleksandr Kolva" }],
+    authors: [{ name: "Alex Kolva" }],
     openGraph: {
-        title: "Oleksandr Kolva — Portfolio",
+        title: "Alex Kolva — Portfolio",
         description: "Building intelligent digital experiences with React and AI.",
         url: "https://my-portfolio-ok.vercel.app",
-        siteName: "Oleksandr Kolva Portfolio",
+        siteName: "Alex Kolva Portfolio",
         locale: "en_US",
         type: "website",
     },
