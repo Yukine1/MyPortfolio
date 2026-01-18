@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Oleksandr Kolva — Portfolio",
         description: "Building intelligent digital experiences with React and AI.",
-        url: "https://my-portfolio.vercel.app",
+        url: "https://my-portfolio-ok.vercel.app",
         siteName: "Oleksandr Kolva Portfolio",
         locale: "en_US",
         type: "website",
