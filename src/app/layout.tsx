@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import type { Metadata } from "next";
 import {SmoothScrollProvider} from "@shared/lib/providers/SmoothControllerProvider";
+import {CustomCursor} from "@shared/ui/CustomCursor";
 
 export const metadata: Metadata = {
     title: "Alex Kolva | Full Stack Developer | AI & React Expert",
@@ -31,6 +32,7 @@ export default function RootLayout({
 
     return (
         <html lang="en" className="bg-[#0a0a0a]">
+        <CustomCursor />
         <SmoothScrollProvider>
             <body className={inter.className}>{children}</body>
         </SmoothScrollProvider>

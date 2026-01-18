@@ -41,10 +41,10 @@ const TechPill = ({ label, color }: { label: string, color: 'blue' | 'red' | 'gr
 
     return (
         <div className={cn(
-            "flex items-center justify-center px-4 py-2 rounded-full border backdrop-blur-sm",
+            "flex items-center justify-center px-4 h-8 rounded-full border backdrop-blur-sm",
             colors[color]
         )}>
-            <span className="text-[10px] font-bold uppercase tracking-wider leading-none">
+            <span className="text-[10px] font-bold uppercase tracking-wider leading-none translate-y-[0.5px]">
                 {label}
             </span>
         </div>
